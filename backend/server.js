@@ -38,14 +38,14 @@ io.on("connection", (socket) => {
                 from: fromUser.username,
                 message: data.message,
                 type: "received",
-                timestamp: new Date().toLocaleTimeString()
+                timestamp: new Date().toLocaleTimeString('en-IN', { timeZone: 'Asia/Kolkata' })
             });
             
             socket.emit("msgFromServer", {
                 from: fromUser.username,
                 message: data.message,
                 type: "sent",
-                timestamp: new Date().toLocaleTimeString()
+                timestamp: new Date().toLocaleTimeString('en-IN', { timeZone: 'Asia/Kolkata' })
             });
         }
     });
