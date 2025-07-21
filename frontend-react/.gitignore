@@ -1,0 +1,35 @@
+<<<<<<< HEAD
+node_modules/
+.env
+=======
+<<<<<<< HEAD
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+=======
+node_modules/
+.env
+dist/
+>>>>>>> d7bd369774d493790e8c733d68953f362cd1c6fe
+>>>>>>> 912fe2c (first commit react)
