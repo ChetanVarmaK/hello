@@ -27,8 +27,7 @@ io.on("connection", (socket) => {
         
         // Send updated list to all clients
         io.emit("fromServer", users);
-    });
-
+    })
     socket.on("msgToServer", (data) => {
         const fromUser = users.find(user => user.id === socket.id);
         const toUser = users.find(user => user.id === data.to);
